@@ -15,6 +15,8 @@
 		08FA7FCB1CE3030E00BB6118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FA7FC91CE3030E00BB6118 /* LaunchScreen.storyboard */; };
 		08FA7FD61CE3030E00BB6118 /* _DTouchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FA7FD51CE3030E00BB6118 /* _DTouchDemoTests.m */; };
 		08FA7FE11CE3030E00BB6118 /* _DTouchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FA7FE01CE3030E00BB6118 /* _DTouchDemoUITests.m */; };
+		08FA7FF01CE3048B00BB6118 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FA7FEF1CE3048B00BB6118 /* SecondViewController.m */; };
+		08FA7FF21CE3057000BB6118 /* search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08FA7FF11CE3057000BB6118 /* search@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		08FA7FDC1CE3030E00BB6118 /* 3DTouchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DTouchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08FA7FE01CE3030E00BB6118 /* _DTouchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _DTouchDemoUITests.m; sourceTree = "<group>"; };
 		08FA7FE21CE3030E00BB6118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08FA7FEE1CE3048B00BB6118 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		08FA7FEF1CE3048B00BB6118 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		08FA7FF11CE3057000BB6118 /* search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		08FA7FBA1CE3030E00BB6118 /* 3DTouchDemo */ = {
 			isa = PBXGroup;
 			children = (
+				08FA7FF11CE3057000BB6118 /* search@3x.png */,
 				08FA7FBE1CE3030E00BB6118 /* AppDelegate.h */,
 				08FA7FBF1CE3030E00BB6118 /* AppDelegate.m */,
 				08FA7FC11CE3030E00BB6118 /* ViewController.h */,
 				08FA7FC21CE3030E00BB6118 /* ViewController.m */,
+				08FA7FEE1CE3048B00BB6118 /* SecondViewController.h */,
+				08FA7FEF1CE3048B00BB6118 /* SecondViewController.m */,
 				08FA7FC41CE3030E00BB6118 /* Main.storyboard */,
 				08FA7FC71CE3030E00BB6118 /* Assets.xcassets */,
 				08FA7FC91CE3030E00BB6118 /* LaunchScreen.storyboard */,
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08FA7FCB1CE3030E00BB6118 /* LaunchScreen.storyboard in Resources */,
+				08FA7FF21CE3057000BB6118 /* search@3x.png in Resources */,
 				08FA7FC81CE3030E00BB6118 /* Assets.xcassets in Resources */,
 				08FA7FC61CE3030E00BB6118 /* Main.storyboard in Resources */,
 			);
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08FA7FF01CE3048B00BB6118 /* SecondViewController.m in Sources */,
 				08FA7FC31CE3030E00BB6118 /* ViewController.m in Sources */,
 				08FA7FC01CE3030E00BB6118 /* AppDelegate.m in Sources */,
 				08FA7FBD1CE3030E00BB6118 /* main.m in Sources */,
